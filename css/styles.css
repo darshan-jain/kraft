@@ -616,3 +616,52 @@ img {
   font-size: 35px;
   cursor: pointer;
 }
+
+#space{
+  margin-top: 30px;
+}
+
+#space img{
+  display: block;
+  width: 100%;
+  margin-top: 9px;
+}
+
+@media (min-width: 500px){
+  #space{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 6px;
+
+      margin-top: 0;
+  }
+}
+
+#photos{
+  margin-top: 30px;
+}
+
+#photos img{
+  display: block;
+  width: 100%;
+  margin-top: 9px;
+}
+
+@media (min-width: 500px){
+  #photos{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 6px;
+
+      margin-top: 0;
+  }
+}
+
+@media (min-width: 900px){
+  #photos{
+      grid-template-columns: repeat(3, 1fr);
+      width: 900px;
+      margin: auto;
+  }
+
+}
